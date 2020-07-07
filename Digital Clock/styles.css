@@ -1,0 +1,29 @@
+body {
+    background: black;
+    font-family: "Orbitron", sans-serif;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #1fc500;
+    font-size: 80px;
+}
+
+.date {
+    color: #1fc500;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 20px;
+}
+
+@media (max-width: 1200px) { 
+    .clock {
+        font-size: 30px;
+        top: 48%;
+    }
+}
